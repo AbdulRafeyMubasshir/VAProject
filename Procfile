@@ -1,1 +1,1 @@
-web: python VAproject.py
+web: gunicorn VAproject:app
